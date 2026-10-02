@@ -1,0 +1,17 @@
+Estado de cuenta de Ana López
+  DEPOSITO      2000.00
+  RETIRO         100.00
+  RETIRO         100.00
+  RETIRO         100.00
+  RETIRO         100.00
+  COMISION        10.00
+  Saldo:     1590.00
+
+Exception in thread "main" java.lang.NoClassDefFoundError: com/fasterxml/jackson/databind/ObjectMapper
+	at com.academia.banco.EstadoDeCuenta.comoJson(EstadoDeCuenta.java:17)
+	at com.academia.banco.App.main(App.java:22)
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.ObjectMapper
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 2 more
